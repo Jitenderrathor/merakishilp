@@ -1,0 +1,221 @@
+:root {
+    --bg-first: #F9E0AE;
+    --bg-second: #FC8621;
+    --bg-three: #C24914;
+    --bg-four: #682C0E;
+}
+
+.bg-first {
+    background-color: var(--bg-first);
+}
+
+.bg-second {
+    background-color: var(--bg-second);
+}
+
+.bg-third {
+    background-color: var(--bg-three);
+}
+
+.bg-fourth {
+    background-color: var(--bg-four);
+}
+
+.color-first {
+    color: var(--bg-first);
+}
+
+.color-second {
+    color: var(--bg-second);
+}
+
+.color-third {
+    color: var(--bg-three);
+}
+
+.color-fourth {
+    color: var(--bg-four);
+}
+
+
+/* ================== Color declaration end ==================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* ================== Font declaration end ==================== */
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2.text-center {
+    color: #ce133f;
+}
+
+h3.red a {
+    color: #ce133f !important;
+}
+
+h3.mb-4 {
+    color: #ce133f;
+}
+
+h6.text-center a {
+    transition: all .2s;
+    color: black;
+}
+
+h6.text-center:hover a {
+    color: #ce133f;
+    cursor: pointer;
+}
+
+
+/* ============== Header Section Start ============== */
+
+.header nav .container .nav-item .nav-link {
+    font-weight: bold;
+    color: black !important;
+}
+
+.header nav .container .navbar-brand img {
+    width: 130px;
+}
+
+
+/* =============== Banner Section Start =============== */
+
+.banner {
+    background-image: url(../image/b.jpg);
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.banner h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.banner h3 span {
+    font-size: 2em;
+    color: #ce133f;
+}
+
+
+/* =============== collection Section Start =============== */
+
+.collection {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+}
+
+.collection .container-xl .row .content img {
+    width: 100%;
+}
+
+.collection .container-xl .row .content h6 {
+    font-size: .9em;
+}
+
+
+/* =============== About Section Start =============== */
+
+.about {
+    background-image: url(../image/a.jpg);
+}
+
+
+/* =============== Products Section Start =============== */
+
+.products .row .content span.mx-1 {
+    color: #ce133e;
+}
+
+.products .row .content img {
+    width: 100%;
+}
+
+
+/* =============== Contact Section Start =============== */
+
+.wrapper {
+    width: 100%;
+    box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+}
+
+#form-message-success {
+    /* color: #28a745; */
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-group {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.info-wrap .dbox {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.info-wrap .dbox:last-child {
+    margin-bottom: 0;
+}
+
+.info-wrap .dbox p {
+    margin-bottom: 0;
+}
+
+.info-wrap .dbox p span {
+    font-weight: 400;
+    /* color: #000; */
+}
+
+.info-wrap .dbox p a {
+    /* color: rgba(0, 0, 0, 0.3); */
+}
+
+.info-wrap .dbox .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.info-wrap .dbox .icon span {
+    font-size: 20px;
+    /* color: #000; */
+}
+
+.info-wrap .dbox .text {
+    width: calc(100% - 50px);
+}
+
+.submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: #28a745; */
+}
